@@ -1,12 +1,12 @@
 zonesync
 ========
 
-# Desscription
+## Description
 Syncing zone between 2 systems for cold standby
 
-# Prerequisites
+## Prerequisites
 
 * Passwordless ssh root access 
 
-# Example crontab entry
+## Example crontab entry
 0 7 * * * /usr/bin/zonesync <zone> <remote system>
