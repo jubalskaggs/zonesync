@@ -9,4 +9,5 @@ Syncing zone between 2 systems for cold standby
 * Passwordless ssh root access 
 
 ## Example crontab entry
-0 7 * * * /usr/bin/zonesync <zone> <remote system>
+
+   0 7 * * * /usr/bin/zonesync <zone> <remote system>
