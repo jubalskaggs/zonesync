@@ -10,4 +10,4 @@ Syncing zone between 2 systems for cold standby
 
 ## Example crontab entry
 
-   0 7 * * * /usr/bin/zonesync <zone> <remote system>
+   0 7 * * * /usr/bin/zonesync "zone" "remote system"
